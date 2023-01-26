@@ -16,7 +16,8 @@ devtools::install_github("janoleko/PandemicSim")
 
 ## Example
 
-First simulate the pandemic
+First simulate the pandemic (in this case with default settings, but you
+could change them)
 
 ``` r
 pandemic = sim_pandemic()
