@@ -25,3 +25,15 @@ For example you can change the number of individuals or increase the population'
 devtools::install_github("janoleko/PandemicSim")
 ```
 
+## Example
+
+First simulate the pandemic
+```{r, results = 'hide'}
+pandemic = sim_pandemic()
+```
+Then plot the result
+```{r}
+plot_pandemic(pandemic, t = 100)
+plot_pandemic(pandemic, t = 200)
+plot_pandemic(pandemic, t = 300)
+```

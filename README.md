@@ -13,3 +13,31 @@ even simulate the effect of countermeasures.
 ``` r
 devtools::install_github("janoleko/PandemicSim")
 ```
+
+## Example
+
+First simulate the pandemic
+
+``` r
+pandemic = sim_pandemic()
+```
+
+Then plot the result
+
+``` r
+plot_pandemic(pandemic, t = 100)
+```
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="75%" style="display: block; margin: auto;" />
+
+``` r
+plot_pandemic(pandemic, t = 200)
+```
+
+<img src="man/figures/README-unnamed-chunk-4-2.png" width="75%" style="display: block; margin: auto;" />
+
+``` r
+plot_pandemic(pandemic, t = 300)
+```
+
+<img src="man/figures/README-unnamed-chunk-4-3.png" width="75%" style="display: block; margin: auto;" />
