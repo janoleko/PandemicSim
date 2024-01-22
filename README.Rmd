@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 library(PandemicSim)
 ```
 
-# {PandemicSim}: Simulate pandemics
+# {PandemicSim}: Simulate pandemics <img src="pandemic_logo.png" align="right" height=170>
 
 With this package you can simulate a pandemic for a population of dots living in a small box.
 You have a lot of options to change the pandemic.
